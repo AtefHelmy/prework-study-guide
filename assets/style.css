@@ -42,13 +42,15 @@ img     {
             margin-top: 10px;
         }
           
- p      {
-            /*I know the instructions said to set font size and
+/* p      {
+            I know the instructions said to set font size and
             alignment of the footer here in p, but it was only 
             being used in the footer. In case I use p in other places 
             in the HTML document, placing those in the footer section 
-            could prevent future conflicts*/
+            could prevent future conflicts
         }   
+
+        */
 
 .card   {
             width: 80%;
