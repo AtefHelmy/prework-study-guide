@@ -19,7 +19,9 @@ footer {
             color: white;
             position: fixed;
             bottom: 0;
-            left: 0;
+            left: 0;;
+            font-size: 15px;
+            text-align: center;
         }
 
 h1,h2   {
@@ -37,17 +39,30 @@ img     {
  ul     {   
             font-size: 20px;
             padding-left: 40px;
+            margin-top: 10px;
         }
           
-
  p      {
-            text-align: center;
-            font-size: 30px;
-        }       
+            /*I know the instructions said to set font size and
+            alignment of the footer here in p, but it was only 
+            being used in the footer. In case I use p in other places 
+            in the HTML document, placing those in the footer section 
+            could prevent future conflicts*/
+        }   
+
+.card   {
+            width: 80%;
+            margin: 40px auto;
+            border: 2px solid rgb(105, 23, 85);
+            box-shadow: 3px 6px 4px 1px #888888;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-radius: 10px;
+        }
 
 #javascript-section   
         {
-            margin-bottom: 500px;
+            margin-bottom: 200px;
         }       
 
 #html-section
