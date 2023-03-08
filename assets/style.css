@@ -66,6 +66,7 @@ img     {
             padding-bottom: 10px;
             padding-top: 10px;
             border-radius: 10px;
+            padding-right: 10px;
         }
 
 #javascript-section   
@@ -77,3 +78,6 @@ img     {
         {
             margin-top: 50px;
         }
+
+span
+        {font-weight: bold;}
