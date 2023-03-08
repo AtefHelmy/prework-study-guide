@@ -18,7 +18,7 @@ N/A
 This is meant to be used as a studying resource. The actual webpage itself contains useful information, and more information, especially specific elements, stlying, and syntax, can be found in the code for the webpage. Both the page and the code itself function as a sort of study resource of sorts. In addition, by using Command Option I on a Mac, or Command Shift I on a Windows, you can open up the Console window to interact with the Javascript functionality. Currently, the webpage should print the topics we are learning, and what one could study first today. 
 
 ## Credits
-Atef Helmy
+N/A
 
 ## License
 Please refer to the licensing document in the repository.
