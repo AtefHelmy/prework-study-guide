@@ -42,7 +42,7 @@
 
 
           </li>
-          <li>The title element goes in the head,  and is critical for the page.</li>
+          <li>The title element goes in the head, and is critical for the page.</li>
           <li>The base element defines the base URL for the page and it must be in the head.
           </li>
           <li>The link element connets an external resource to the HTML document.
@@ -57,6 +57,12 @@
           <li> An element can have multiple classes: <br><br>&#60;element class="class1 class2 class3"&#62; &#60;/element&#62; note that the classes are not separate quotes, and there is only one class declaration.
           </li> <br>
           <li>*REMEMBER* to ask this question in class office hours: Office hours questions: &#60;p&#62;, then &#60;a&#62; inline and then another &#60;p&#62; inline in order to not have line breaks. Would it be bad practice to change these attributes directly in the html file if this is the only place where this is in use. I understand this might happen again and therefore maybe a class selector might be better.
+          </li>
+          <li>
+          You can get the fields of a form to line up nicely by making the form an unordered list and making the form elements the list elements. You can make the button part of the list, or you can make it its own element.
+          </li>
+          <li>
+            Sometimes wrapping images in a div can avoid some weird compatibility issues in flexboxes.
           </li>
         </ul>
 
@@ -102,6 +108,36 @@
           <li>When you make an element absolute, its absolute position is confined to the nearest relative parent. If there is no nearest relative parent, the nearest relative is the entire window. It will go to a certain spot on the window.          
           </li>
           <li>Note that the above absolute is different than fixed, which stays in a fixed position in the viewport.
+          </li>
+          <li>
+            Make sure to look up best practices for available screen size breakpoints.
+          </li>
+          <li>
+            An example selector for media breakpoints when coming to CSS is <code> @media screen and (max-width: 768px) </code> It seems to be 768 px for phones and 992 px for tablets.
+          </li>
+          <li>
+            Flexbox seems like a great tool for design. Note that the dev tools have a small UI tool for playing around with the flex box that is a great way to learn flexbox.
+          </li>
+          <li>
+            There are two bookmarks saved which are great resources for learning flexbox, and as a reference.
+          </li>
+          <li>
+            One of the most useful flex properties is flex # # #, which is grow, shrink, and basis. Without a basis they will still try to grow and shrink according to the other values, but they will not have a minimum basis value upon which to do other actions, like flex-wrap.
+          </li>
+          <li>
+            Flex is good because of the inherit usability and design that comes with it, and it is very useful. However, there are certain specifics that may be difficult to implement using the flexbox framework. In this case, this is where @media queries come into play. Although more tedious to implement because you have to account for every single property meanwhile flex will do a lot of thing for you automatically that asthetically looks nice, you have more control over the specifics with @media queries.
+          </li>
+          <li>
+            Maybe up down left right is a way around justify-content and align-items with the flex start and flex end terminology.
+          </li>
+          <li>
+            Try experimenting with the dev tools with messing around with flex blocks. If you delete an attribute value in CSS in the dev tools, a little menu with many other default values pops up. 
+          </li>
+          <li>
+            Look up CSS grid, looks like a great additional tool for building websites.
+          </li>
+          <li>
+            CSS box styling allows for a variety of transformations, like rotate, scale, and skew. It is a little unique because you are taking a value for the transformation property
           </li>
         </ul>
 
